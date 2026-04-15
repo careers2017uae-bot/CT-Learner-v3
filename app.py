@@ -447,7 +447,7 @@ Output format:
 """
     try:
         response = client.chat.completions.create(
-            model="llama-3.3-70b-versatile",   # Updated to currently active model
+            model="llama-4-scout-17b-16e-instruct",   # Updated to currently active model llama-3.3-70b-versatile llama-4-scout-17b-16e-instruct 
             messages=[{"role": "user", "content": prompt}],
             temperature=0.7,
             max_tokens=500,
